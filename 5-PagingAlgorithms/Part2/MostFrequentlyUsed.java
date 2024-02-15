@@ -13,7 +13,7 @@ public class MostFrequentlyUsed implements IPageReplacementStrategy {
      *                                     allocated to the available frames
      */
     public int GetPageFaultsCount(int numOfFramesInPhysicalMemory, int[] pages) {
-        // TODO implement Most Frequently Used (MFU) page replacement algorithm
+        // implementing Most Frequently Used (MFU) page replacement algorithm
 
         int pageFaultCount = 0;
         int [] frequency = new int[numOfFramesInPhysicalMemory];
