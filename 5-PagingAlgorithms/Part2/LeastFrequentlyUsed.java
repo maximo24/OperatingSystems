@@ -13,7 +13,7 @@ public class LeastFrequentlyUsed implements IPageReplacementStrategy {
      *                                     allocated to the available frames
      */
     public int GetPageFaultsCount(int numOfFramesInPhysicalMemory, int[] pages) {
-        // TODO implement Least Frequently Used (LRU) page replacement algorithm
+        // implementing Least Frequently Used (LRU) page replacement algorithm
 
         int pageFaultCount = 0;
         ArrayList<Integer> LRU = new ArrayList<>();
