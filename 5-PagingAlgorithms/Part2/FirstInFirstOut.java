@@ -13,7 +13,7 @@ public class FirstInFirstOut implements IPageReplacementStrategy {
      *                                     allocated to the available frames
      */
     public int GetPageFaultsCount(int numOfFramesInPhysicalMemory, int[] pages) {
-        // TODO implement First In First Out (FIFO) page replacement algorithm
+        // implementing First In First Out (FIFO) page replacement algorithm
 
         int pageFaultCount = 0;
         ArrayList<Integer> FIFO = new ArrayList<>();
