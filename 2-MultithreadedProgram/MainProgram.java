@@ -8,10 +8,8 @@ public class MainProgram {
     public static void main(String[] args) {
 
         System.out.println("run");
-        // I'll write an example on how to create threads for the first question and you
-        // should follow the same for the rest of the questions
         int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
-        // TODO: split the array into 3 slices, then create a thread for each slice.
+        // split the array into 3 slices, then create a thread for each slice.
         int[] slice1 = new int[(int) Math.ceil(arr.length / 3) + 1];
         int[] slice2 = new int[(int) Math.ceil(arr.length / 3) + 1];
         int[] slice3 = new int[(int) Math.ceil(arr.length / 3) + 1];
@@ -47,7 +45,7 @@ public class MainProgram {
                     + t3_sum.getMostRecentComputedValue();
             System.out.println("The parallel sum of the array = " + sum);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
+            // Auto-generated catch block
             e.printStackTrace();
         }
 
@@ -68,7 +66,7 @@ public class MainProgram {
         t1_average.start();
         t2_average.start();
 
-        // TODO: compute and print the average of the array
+        // compute and print the average of the array
 
         try {
             t1_average.join();
@@ -77,7 +75,7 @@ public class MainProgram {
             System.out.println("The parallel average of the array = " + average);
         }
         catch (InterruptedException e) {
-            // TODO Auto-generated catch block
+            // Auto-generated catch block
             e.printStackTrace();
         }
 
@@ -88,7 +86,7 @@ public class MainProgram {
         t1_max.start();
         t2_max.start();
 
-        // TODO: compute and print the maximum number in the array
+        // compute and print the maximum number in the array
 
         try {
             t1_max.join();
@@ -98,7 +96,7 @@ public class MainProgram {
             System.out.println("The max values are " + max1 + " and " + max2);
         }
         catch (InterruptedException e) {
-             //TODO Auto-generated catch block
+             // Auto-generated catch block
             e.printStackTrace();
         }
 
@@ -109,7 +107,7 @@ public class MainProgram {
         t1_find.start();
         t2_find.start();
 
-        // TODO: search for an arbitrary value inside the array.
+        // search for an arbitrary value inside the array.
 
         boolean stop = false;
         while (!stop) {
