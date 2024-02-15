@@ -24,8 +24,7 @@ public class PagingStatisticalProcessor {
     }
 
     public void PrintStatisticalInformation() {
-        // TODO: according to the lab's document, please print the relevant information
-
+        
         // Number of frames total
         int numFrames = physicalMemorySize - pageSize;
         System.out.println("Total number of frames = 2^" + numFrames);
@@ -58,8 +57,6 @@ public class PagingStatisticalProcessor {
     }
 
     public void PrintInformationAboutAProgram(double programSizeInBytes) {
-        // TODO: according to the lab's document, please print the relevant information
-        // about a given program
 
         // Number of pages required for the program
         double sizePage = Math.pow(2, pageSize);
@@ -81,8 +78,6 @@ public class PagingStatisticalProcessor {
     }
 
     public void PrintInformationAboutAVirtualAddress(String virtualAddress) {
-        // TODO: according to the lab's document, please print the relevant information
-        // about a given virtual address.
 
         int numFrames = physicalMemorySize - pageSize;
         int gb = physicalMemorySize/8;
