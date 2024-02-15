@@ -1,4 +1,4 @@
-CISC324 Lab 4 - ReadMe
+ReadMe
 
 
 
