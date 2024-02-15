@@ -1,4 +1,4 @@
-CISC324 Lab 5 - ReadMe
+ReadMe
 
 
 Part 1:
