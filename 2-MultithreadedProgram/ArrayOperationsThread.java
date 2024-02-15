@@ -44,7 +44,7 @@ public class ArrayOperationsThread extends Thread {
     }
 
     public boolean searchForValueInArray() {
-        // TODO: Search for "searchValue" inside the array "currentArray". Return true
+        // Search for "searchValue" inside the array "currentArray". Return true
         // if value found and false otherwise
         int i = 0;
         while (i < currentArray.length) {
