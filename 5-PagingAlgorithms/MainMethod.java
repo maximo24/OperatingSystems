@@ -5,9 +5,7 @@ import Part2.FirstInFirstOut;
 import Part2.LeastFrequentlyUsed;
 import Part2.MostFrequentlyUsed;
 
-/**
- * You don't have to change anything here.
- */
+
 public class MainMethod {
 
     public static void Part1() {
